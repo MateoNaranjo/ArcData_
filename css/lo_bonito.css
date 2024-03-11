@@ -1,0 +1,184 @@
+body{
+    margin: 0%;
+}
+
+nav{
+    align-items: center;
+    width: 65%;
+    display: inline-block;
+    margin-left:30%;
+    background-color: #E8CCFF ;
+    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0 100%);
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+h1{
+    font-family: 'Lucida Sans';
+    font-size: 4rem;
+}
+
+h2{
+    font-family: 'Lucida Sans';
+    font-size: 3rem;
+}
+h3{
+    text-align: center;
+}
+
+
+footer{
+    display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    background-color: #000000;
+    
+}
+
+
+.links{
+    list-style: none;
+    display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 22%;
+}
+
+.link{
+    font-family: 'Lucida Sans';
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+.barra{
+    font-weight: 600;
+    font-size: 1.7rem;
+    font-family: 'Lucida Sans';
+    display: inline;
+    position: absolute;
+        top: 2%;
+    margin-left: 7%;
+}
+
+.imagen1{
+    width: 160px;
+    margin: 0%;
+    position: absolute;
+        left: 10%;
+    
+    
+}
+
+.container-imagenes{
+    width: 90%;
+    margin-left: 25% ;
+    
+    
+    
+}
+
+.arca2{
+    width: 30%;
+    border-radius: 10px 10px 10px 10px;
+    border: #CAA6E6  5px solid;
+    margin-right: 50px;
+    margin-top: 10px;
+    
+}
+
+.arca3{
+    width: 30%;
+    border-radius: 10px 10px 10px 10px;
+    border: #CAA6E6  5px solid;
+    
+}
+
+.arca1{
+    width: 68%;
+    border-radius: 10px 10px 10px 10px;
+    border: #CAA6E6  5px solid;
+}
+
+.container-imagne2{
+    margin-top: 40px;
+    
+    
+}
+.proyecto{
+    font-family: 'Lucida Sans';
+    font-size:x-large;
+}
+.texto{
+   width: 40%;
+   margin-left: 10%;
+}
+
+.separar{
+    margin-top: 3%;
+    display: grid;
+        grid-template-columns: 1fr 1fr
+    
+}
+
+.l1{
+    border-bottom: 4px darkgray dashed;
+
+}
+
+.Objetivos{
+    text-align: center;
+}
+
+
+
+.los-objetivos{
+    font-family: 'Lucida Sans';
+    font-size:large;
+    margin-bottom: 20px;
+    
+    
+}
+
+.container-ob{
+    width: 50%;
+    height: 120%;
+    margin-left: 20%;
+    border:#000000  5px solid;
+    border-radius: 10px 10px 10px 10px;  
+}
+
+.tecnologia{
+    background-color:#9A999B  ;
+}
+
+.t_tecnologias{
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.final{
+    color: white;
+}
+
+.foo{
+    color: white;
+}
+@media only screen and (max-width:1500px){
+    h1{
+        font-size: 4rem;
+    }
+
+    .proyecto{
+        font-size: 23px;
+    }
+
+    .texto{
+        width: 60%;
+    }
+}
+
