@@ -202,7 +202,7 @@ margin-left: 20%;
 .foo{
     color: white;
 }
-@media only screen and (max-width:1700px){
+@media only screen and (max-width:1600px){
     .texto.h1{
         font-size: 5rem;
     }
