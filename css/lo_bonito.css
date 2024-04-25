@@ -1,16 +1,4 @@
-@media only screen and (max-width:100px){
-    .texto.h1{
-        font-size: 5rem;
-    }
 
-    .proyecto{
-        font-size: 20;
-    }
-
-    .texto{
-        width: 65%;
-    }
-}
 body{
     margin: 0%;
 }
@@ -152,6 +140,7 @@ margin-left: 15%;
     margin-top: 40px;
     
     
+    
 }
 .proyecto{
     font-family: 'Lucida Sans';
@@ -212,6 +201,19 @@ margin-left: 15%;
 
 .foo{
     color: white;
+}
+@media only screen and (max-width:1700px){
+    .texto.h1{
+        font-size: 5rem;
+    }
+
+    .texto .proyecto{
+        font-size: 23px;
+    }
+
+    .texto{
+        width: 60%;
+    }
 }
 /*@media screen and (max-width:500px){
     .imagen1{
