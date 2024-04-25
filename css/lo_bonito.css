@@ -142,7 +142,7 @@ margin-left: 15%;
 }
 .proyecto{
     font-family: 'Lucida Sans';
-    font-size:20px;
+    font-size:x-large;
 }
 .texto{
    width: 40%;
@@ -200,7 +200,7 @@ margin-left: 15%;
 .foo{
     color: white;
 }
-@media screen and (max-width:500px){
+/*@media screen and (max-width:500px){
     .imagen1{
         width: 100px;
     }
@@ -225,7 +225,7 @@ margin-left: 15%;
     h1{
         font-size:30px
     }
-}
+}*/
 @media only screen and (max-width:1500px){
     .texto.h1{
         font-size: 5rem;
