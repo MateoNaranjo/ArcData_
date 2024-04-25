@@ -88,7 +88,7 @@ footer{
     display: inline;
     position: absolute;
         top: 2%;
-    margin-left: 7%;
+    margin-left: 5%;
 }
 
 .imagen1{
@@ -99,6 +99,10 @@ footer{
         top:2%;
     
     
+}
+
+.video{
+margin-left: 15%;
 }
 
 .container-imagenes{
@@ -138,7 +142,7 @@ footer{
 }
 .proyecto{
     font-family: 'Lucida Sans';
-    font-size:x-large;
+    font-size:20px;
 }
 .texto{
    width: 40%;
