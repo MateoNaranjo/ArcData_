@@ -103,7 +103,7 @@ footer{
 }
 
 .video{
-margin-left: 15%;
+margin-left: 20%;
 }
 
 .container-imagenes{
@@ -213,6 +213,10 @@ margin-left: 15%;
 
     .texto{
         width: 60%;
+    }
+
+    .video{
+        margin-left: 15%;
     }
 }
 /*@media screen and (max-width:500px){
