@@ -7,7 +7,7 @@ nav{
     align-items: center;
     width: 45%;
     margin: auto;
-    margin-left:30%;
+    margin-left:40%;
     background-color: #E8CCFF ;
     clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0 100%);
     
@@ -103,12 +103,12 @@ footer{
 }
 
 .video{
-margin-left: 20%;
+margin-left: 23%;
 }
 
 .container-imagenes{
     width: 90%;
-    margin-left: 25% ;
+    margin-left: 40% ;
     
     
     
@@ -145,9 +145,11 @@ margin-left: 20%;
 .proyecto{
     font-family: 'Lucida Sans';
     font-size:x-large;
+    
 }
 .texto{
    width: 40%;
+   margin-left: 15%;
  
 }
 
@@ -163,25 +165,50 @@ margin-left: 20%;
 
 }
 
+.tit{
+    font-size: xx-large;
+}
+
 .Objetivos{
-    text-align: center;
+margin-left: 27%;    
 }
 
 
+
+
+
+.vertical_line{
+   
+   width: 3px;;
+   margin-left: 20%;
+}
+
+.general{
+    width: 70%;
+    margin-left: 40%;
+   
+}
+
+.especificos{
+    width: 70%;
+    margin-left: -60%;
+}
 
 .los-objetivos{
     font-family: 'Lucida Sans';
-    font-size:large;
-    margin-bottom: 20px;
-    
-    
+    font-size:x-large;
+    margin-bottom: 20px; 
+}
+
+.divisiones{
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
 }
 
 .container-ob{
-    width: 50%;
+    width: 70%;
     height: 120%;
     margin-left: 20%;
-    border:#000000  5px solid;
     border-radius: 10px 10px 10px 10px;  
 }
 
@@ -206,17 +233,28 @@ margin-left: 20%;
     .texto.h1{
         font-size: 5rem;
     }
+    
+    
+     .especificos{
+        width: 80%;
+        margin-left: -60%;
+    }
 
     .texto .proyecto{
         font-size: 23px;
     }
 
+    .container-imagenes{
+        margin-left: 30%;
+    }
+
     .texto{
         width: 60%;
+        margin-left: 7%;
     }
 
     .video{
-        margin-left: 15%;
+        margin-left: 18%;
     }
 }
 /*@media screen and (max-width:500px){
